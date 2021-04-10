@@ -35,6 +35,7 @@ body {
 	position: absolute;
 	width: 190px;
 	bottom: 0px;
+	padding: 1px;
 	border-top: solid 1px black;
 }
 .vidas {
@@ -42,5 +43,8 @@ body {
 }
 
 .tempo{
+	float: left;
+}
+.score{
 	float: left;
 }

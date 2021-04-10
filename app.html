@@ -13,17 +13,18 @@
 
 	<div class="menu">
 		<div class="vidas">
-			<img src="./imagens/coracao_vazio.png">
-			<img src="./imagens/coracao_cheio.png">
-			<img src="./imagens/coracao_cheio.png">
+			<img id="life1" src="./imagens/coracao_cheio.png">
+			<img id="life2" src="./imagens/coracao_cheio.png">
+			<img id="life3" src="./imagens/coracao_cheio.png">
 		</div>
-		<div class="tempo">TEMPO: ?</div>
+		<div class="tempo">TEMPO: <span id="tempo"></span></div>
+		<div class="score">Score: <span id="score"></span></div>
 	</div>
 	<script>
-
+		var mosca = 
 		setInterval(function () {
 			posicaoRandomica()
-		}, 1000)
+		}, 2000)
 	</script>
 </body>
 
